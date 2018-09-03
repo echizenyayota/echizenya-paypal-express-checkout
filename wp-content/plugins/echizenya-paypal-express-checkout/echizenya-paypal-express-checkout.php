@@ -10,6 +10,8 @@ License: GPLv2 or later
 Text Domain: echizenya-paypal-express-checkout
 */
 
+require(__DIR__ . '/class-echizenya-paypal-express-checkout.php');
+
 if( is_admin() ) {
   $pypl_expr = new Echizenya_PayPal_Express_Checkout();
 }
