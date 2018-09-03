@@ -1,0 +1,18 @@
+[03-Sep-2018 01:03:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Echizenya_PayPal_Express_Checkout' not found in /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php:14
+Stack trace:
+#0 /var/www/wordpress/wp-admin/includes/plugin.php(555): include_once()
+#1 /var/www/wordpress/wp-admin/plugins.php(43): activate_plugin('echizenya-paypa...', 'http://wocker.t...', false)
+#2 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php on line 14
+[03-Sep-2018 01:03:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Echizenya_PayPal_Express_Checkout' not found in /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php:14
+Stack trace:
+#0 /var/www/wordpress/wp-admin/includes/plugin.php(1897): include()
+#1 /var/www/wordpress/wp-admin/plugins.php(178): plugin_sandbox_scrape('echizenya-paypa...')
+#2 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php on line 14
+[03-Sep-2018 01:03:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Echizenya_PayPal_Express_Checkout' not found in /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php:14
+Stack trace:
+#0 /var/www/wordpress/wp-admin/includes/plugin.php(1897): include()
+#1 /var/www/wordpress/wp-admin/plugins.php(178): plugin_sandbox_scrape('echizenya-paypa...')
+#2 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/echizenya-paypal-express-checkout.php on line 14

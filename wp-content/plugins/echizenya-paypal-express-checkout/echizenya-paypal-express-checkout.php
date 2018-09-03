@@ -9,3 +9,7 @@ Author URI: https://e-yota.com
 License: GPLv2 or later
 Text Domain: echizenya-paypal-express-checkout
 */
+
+if( is_admin() ) {
+  $pypl_expr = new Echizenya_PayPal_Express_Checkout();
+}
