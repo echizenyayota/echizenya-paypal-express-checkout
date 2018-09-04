@@ -1,0 +1,103 @@
+[03-Sep-2018 10:46:59 UTC] PHP Warning:  不明なエラーが発生しました。WordPress.org またはこのサーバーの設定に何か問題が起きている可能性があります。問題が解決しない場合は<a href="https://ja.wordpress.org/support/">サポートフォーラム</a>に投稿してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /var/www/wordpress/wp-includes/update.php on line 155
+[03-Sep-2018 10:46:59 UTC] PHP Stack trace:
+[03-Sep-2018 10:46:59 UTC] PHP   1. {main}() /var/www/wordpress/wp-cron.php:0
+[03-Sep-2018 10:46:59 UTC] PHP   2. do_action_ref_array() /var/www/wordpress/wp-cron.php:126
+[03-Sep-2018 10:46:59 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:515
+[03-Sep-2018 10:46:59 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[03-Sep-2018 10:46:59 UTC] PHP   5. wp_version_check() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[03-Sep-2018 10:46:59 UTC] PHP   6. trigger_error() /var/www/wordpress/wp-includes/update.php:155
+[03-Sep-2018 10:46:59 UTC] PHP Warning:  不明なエラーが発生しました。WordPress.org またはこのサーバーの設定に何か問題が起きている可能性があります。問題が解決しない場合は<a href="https://ja.wordpress.org/support/">サポートフォーラム</a>に投稿してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /var/www/wordpress/wp-includes/update.php on line 347
+[03-Sep-2018 10:46:59 UTC] PHP Stack trace:
+[03-Sep-2018 10:46:59 UTC] PHP   1. {main}() /var/www/wordpress/wp-cron.php:0
+[03-Sep-2018 10:46:59 UTC] PHP   2. do_action_ref_array() /var/www/wordpress/wp-cron.php:126
+[03-Sep-2018 10:46:59 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:515
+[03-Sep-2018 10:46:59 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[03-Sep-2018 10:46:59 UTC] PHP   5. wp_update_plugins() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[03-Sep-2018 10:46:59 UTC] PHP   6. trigger_error() /var/www/wordpress/wp-includes/update.php:347
+[03-Sep-2018 10:46:59 UTC] PHP Warning:  不明なエラーが発生しました。WordPress.org またはこのサーバーの設定に何か問題が起きている可能性があります。問題が解決しない場合は<a href="https://ja.wordpress.org/support/">サポートフォーラム</a>に投稿してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /var/www/wordpress/wp-includes/update.php on line 529
+[03-Sep-2018 10:46:59 UTC] PHP Stack trace:
+[03-Sep-2018 10:46:59 UTC] PHP   1. {main}() /var/www/wordpress/wp-cron.php:0
+[03-Sep-2018 10:46:59 UTC] PHP   2. do_action_ref_array() /var/www/wordpress/wp-cron.php:126
+[03-Sep-2018 10:46:59 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:515
+[03-Sep-2018 10:46:59 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[03-Sep-2018 10:46:59 UTC] PHP   5. wp_update_themes() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[03-Sep-2018 10:46:59 UTC] PHP   6. trigger_error() /var/www/wordpress/wp-includes/update.php:529
+[04-Sep-2018 00:08:04 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'Echizenya_PayPal_Express_Checkout' does not have a method 'enviroment_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1388
+[04-Sep-2018 00:08:04 UTC] PHP Stack trace:
+[04-Sep-2018 00:08:04 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[04-Sep-2018 00:08:04 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[04-Sep-2018 00:08:04 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[04-Sep-2018 00:08:04 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[04-Sep-2018 00:08:04 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[04-Sep-2018 00:08:04 UTC] PHP   6. Echizenya_PayPal_Express_Checkout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[04-Sep-2018 00:08:04 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/class-echizenya-paypal-express-checkout.php:33
+[04-Sep-2018 00:08:04 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1347
+[04-Sep-2018 00:08:04 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'Echizenya_PayPal_Express_Checkout' does not have a method 'client_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1388
+[04-Sep-2018 00:08:04 UTC] PHP Stack trace:
+[04-Sep-2018 00:08:04 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[04-Sep-2018 00:08:04 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[04-Sep-2018 00:08:04 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[04-Sep-2018 00:08:04 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[04-Sep-2018 00:08:04 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[04-Sep-2018 00:08:04 UTC] PHP   6. Echizenya_PayPal_Express_Checkout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[04-Sep-2018 00:08:04 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/class-echizenya-paypal-express-checkout.php:33
+[04-Sep-2018 00:08:04 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1347
+[04-Sep-2018 00:08:42 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'Echizenya_PayPal_Express_Checkout' does not have a method 'print_section_info' in /var/www/wordpress/wp-admin/includes/template.php on line 1342
+[04-Sep-2018 00:08:42 UTC] PHP Stack trace:
+[04-Sep-2018 00:08:42 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[04-Sep-2018 00:08:42 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[04-Sep-2018 00:08:42 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[04-Sep-2018 00:08:42 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[04-Sep-2018 00:08:42 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[04-Sep-2018 00:08:42 UTC] PHP   6. Echizenya_PayPal_Express_Checkout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[04-Sep-2018 00:08:42 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/class-echizenya-paypal-express-checkout.php:33
+[04-Sep-2018 00:08:42 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'Echizenya_PayPal_Express_Checkout' does not have a method 'enviroment_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1388
+[04-Sep-2018 00:08:42 UTC] PHP Stack trace:
+[04-Sep-2018 00:08:42 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[04-Sep-2018 00:08:42 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[04-Sep-2018 00:08:42 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[04-Sep-2018 00:08:42 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[04-Sep-2018 00:08:42 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[04-Sep-2018 00:08:42 UTC] PHP   6. Echizenya_PayPal_Express_Checkout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[04-Sep-2018 00:08:42 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/class-echizenya-paypal-express-checkout.php:33
+[04-Sep-2018 00:08:42 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1347
+[04-Sep-2018 00:08:42 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'Echizenya_PayPal_Express_Checkout' does not have a method 'client_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1388
+[04-Sep-2018 00:08:42 UTC] PHP Stack trace:
+[04-Sep-2018 00:08:42 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[04-Sep-2018 00:08:42 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[04-Sep-2018 00:08:42 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[04-Sep-2018 00:08:42 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[04-Sep-2018 00:08:42 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[04-Sep-2018 00:08:42 UTC] PHP   6. Echizenya_PayPal_Express_Checkout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[04-Sep-2018 00:08:42 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/class-echizenya-paypal-express-checkout.php:33
+[04-Sep-2018 00:08:42 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1347
+[04-Sep-2018 00:08:52 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'Echizenya_PayPal_Express_Checkout' does not have a method 'enviroment_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1388
+[04-Sep-2018 00:08:52 UTC] PHP Stack trace:
+[04-Sep-2018 00:08:52 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[04-Sep-2018 00:08:52 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[04-Sep-2018 00:08:52 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[04-Sep-2018 00:08:52 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[04-Sep-2018 00:08:52 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[04-Sep-2018 00:08:52 UTC] PHP   6. Echizenya_PayPal_Express_Checkout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[04-Sep-2018 00:08:52 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/class-echizenya-paypal-express-checkout.php:33
+[04-Sep-2018 00:08:52 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1347
+[04-Sep-2018 00:08:52 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'Echizenya_PayPal_Express_Checkout' does not have a method 'client_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1388
+[04-Sep-2018 00:08:52 UTC] PHP Stack trace:
+[04-Sep-2018 00:08:52 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[04-Sep-2018 00:08:52 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[04-Sep-2018 00:08:52 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[04-Sep-2018 00:08:52 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[04-Sep-2018 00:08:52 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[04-Sep-2018 00:08:52 UTC] PHP   6. Echizenya_PayPal_Express_Checkout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[04-Sep-2018 00:08:52 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/class-echizenya-paypal-express-checkout.php:33
+[04-Sep-2018 00:08:52 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1347
+[04-Sep-2018 00:09:32 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'Echizenya_PayPal_Express_Checkout' does not have a method 'client_callback' in /var/www/wordpress/wp-admin/includes/template.php on line 1388
+[04-Sep-2018 00:09:32 UTC] PHP Stack trace:
+[04-Sep-2018 00:09:32 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/options-general.php:0
+[04-Sep-2018 00:09:32 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/options-general.php:10
+[04-Sep-2018 00:09:32 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:224
+[04-Sep-2018 00:09:32 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[04-Sep-2018 00:09:32 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[04-Sep-2018 00:09:32 UTC] PHP   6. Echizenya_PayPal_Express_Checkout->create_admin_page() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[04-Sep-2018 00:09:32 UTC] PHP   7. do_settings_sections() /var/www/wordpress/wp-content/plugins/echizenya-paypal-express-checkout/class-echizenya-paypal-express-checkout.php:33
+[04-Sep-2018 00:09:32 UTC] PHP   8. do_settings_fields() /var/www/wordpress/wp-admin/includes/template.php:1347
