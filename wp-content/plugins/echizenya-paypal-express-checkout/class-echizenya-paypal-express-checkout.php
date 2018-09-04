@@ -70,4 +70,41 @@ class Echizenya_PayPal_Express_Checkout {
 
   }
 
+  // 実行環境とclient IDをサニタイズしてユーザーの入力値を配列で返す
+  public function sanitize( $input ) {
+    $new_input = array();
+    if( isset( $input['env'] ) ) {
+      $new_input['env'] = sanitize_text_field( $input['env'] );
+    }
+    if( isset( $input['client'] ) ) {
+      $new_input['client'] = sanitize_text_field( $input['client'] );
+    }
+    return $new_input;
+  }
+
+  // 設定ページのヘッダー文字列を表示
+  public function print_section_info() {
+    print 'Enter your settings below:';
+  }
+
+  // 実行環境の選択
+  public function enviroment_callback() {
+    ?>
+      <p>
+        <select name="echizenya_paypal_express_checkout[env]" size="1">
+          <option value="sandbox">sandbox</option>
+          <option value="production">production</option>
+        </select>
+      </p>
+    <?php
+  }
+
+  // client IDの入力
+  public function client_callback() {
+    printf(
+            '<input type="text" id="title" name="echizenya_paypal_express_checkout[client]" size="90" value="%s" />',
+            isset( $this->options['client'] ) ? esc_attr( $this->options['client']) : ''
+          );
+  }
+
 }
